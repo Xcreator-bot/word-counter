@@ -1,16 +1,22 @@
-# React + Vite
+# Word Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A live word counter built with React — my first from-scratch Vite project.
 
-Currently, two official plugins are available:
+## Features
+- Live word count, character count, and estimated reading time
+- "Too long!" warning when words exceed 100
+- Clear button resets everything instantly
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Concepts Practised
+- `useState` — controlled textarea input
+- Derived data — wordCount, charCount, readTime calculated from one state
+- `useEffect` — logs word count to console on every change
+- Conditional rendering — warning appears/disappears based on count
 
-## React Compiler
+## How to Run
+git clone https://github.com/Xcreator-bot/word-counter.git
+cd word-counter
+npm install
+npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Ammara Majeed | MAY26-FE30-55 | Appverse Technologies**
